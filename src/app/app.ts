@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('angular-tutorial');
+  name = "Angular Tutorial";
+  username = "mohitkumar";
+  isAdmin = true;
+  count = 3;
 }
