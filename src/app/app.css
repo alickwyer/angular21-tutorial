@@ -1,0 +1,35 @@
+:host {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* 让操作列默认隐藏 */
+.actions-cell button {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.data-row:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.data-row:hover .actions-cell button {
+  opacity: 1;
+}
+
+.income {
+  color: #2ecc71; /* 绿色 */
+}
+
+.expense {
+  color: #e74c3c; /* 红色 */
+}
+
+.future {
+  color: #9e9e9e; /* 灰色 */
+}
